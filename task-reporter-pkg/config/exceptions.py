@@ -32,3 +32,9 @@ class WebDriverException(Exception):
     def __init__(self, msg):
         self.msg = f"WebDriver error :: {msg}"
         super().__init__(msg)
+
+
+class PandasReaderException(Exception):
+    def __init__(self, msg):
+        self.msg = f"PandaReader error :: {msg}"
+        super().__init__(msg)

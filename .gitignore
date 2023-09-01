@@ -1,4 +1,6 @@
+logs.txt
 drivers/
+temp
 
 env/
 .env
